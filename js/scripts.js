@@ -57,4 +57,24 @@ $(window).scroll(function() {
         }
       });
 
+      // Closes responsive menu when a scroll trigger link is clicked
+  $('.page-scroll').click(function() {
+    $('.navbar-collapse').collapse('hide');
+  });
+
 });    
+
+!function(a) {
+    //"use strict";
+    a(".page-scroll").bind("click", function(b) {
+        var c = a(this);
+        a("html, body").stop().animate({
+            scrollTop: a(c.attr("href")).offset().top - 50
+        }, 1250, "easeInOutExpo"), b.preventDefault();
+    }), a("body").scrollspy({
+        target: ".navbar",
+        offset: 51
+    }), a(".navbar-collapse ul li a").click(function() {
+        a(".navbar-toggle:visible").click();
+    });
+}(jQuery);
