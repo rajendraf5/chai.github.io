@@ -848,7 +848,7 @@ header.sticky .nav-social{opacity: 0; height:0;/* display: none; *//* transition
      position: relative;
     display: block;
     width: 100%;
-    height: 50px;
+   /* height: 50px;*/
     background:transparent;
     border: 0;
     color: #fff;
@@ -861,7 +861,7 @@ header.sticky .nav-social{opacity: 0; height:0;/* display: none; *//* transition
 select option{background:#000;}
 .contact-form select.form-control{ height: 50px !important;}
 .contact-form textarea.form-control {
-  height: 100px;
+  height:70px;
   resize: none;
 }
 
@@ -1306,6 +1306,9 @@ footer{padding-top: 60px; font-size: 14px; color:rgba(255,255,255,0.7); backgrou
     transition: all 0.3s ease-in-out;
 }
 
+.hours-list{padding: 0; margin: 0; list-style: none;}
+.hours-list li{display: block;padding: 5px 0px;position: relative;color: #999;border-bottom: 1px dotted rgba(255,255,255,0.3);}
+.hours-list li span{float: right;font-weight: bold;}
 
 .fo-social{margin:0;padding: 0;list-style: none;/* padding-top: 11px; */}
 .fo-social li{list-style: none;float: left;} 
@@ -1406,8 +1409,4 @@ footer{padding-top: 60px; font-size: 14px; color:rgba(255,255,255,0.7); backgrou
     .content-inner {margin-bottom: 30px;}
     .footer_heading{padding-top: 30px;}
     header {position: relative;}
-<<<<<<< Updated upstream
 }
-=======
-}
->>>>>>> Stashed changes
