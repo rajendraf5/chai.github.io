@@ -8,7 +8,7 @@ body {
     height: 100%;
     background: #292929;
     color: #000;
-    overflow-y: auto;
+    overflow-x: hidden;
     font-family:'Source Sans Pro', sans-serif;
 }
 .spacetop80{padding-top: 80px}
