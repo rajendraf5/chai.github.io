@@ -49,15 +49,20 @@
      </div>
     </div><!--./header-inner-->     
   </header>
- 
   <div id="masterslider" class="master-slider ms-skin-default">
             <!-- slide start -->
             <div class="ms-slide" id="Home">
-                <img src="./masterslider/style/blank.gif" data-src="images/slider/slider1.jpg" alt=""/> 
+              <video class="background_video" loop="" muted="" controls>
+  <source src="images/slider/chaisuttacafe.mp4" type="video/mp4">
+  <source src="images/slider/chaisuttacafe.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+    <div id="video_cover"></div>
+                <!-- <img src="./masterslider/style/blank.gif" data-src="images/slider/chaisuttacafe.mp4" alt=""/>  -->
 
                 <!-- slide heading layer -->
                 <h3 class="ms-layer pi-caption02" 
-                    style="top: 280px; left: 720px;"
+                    style="top: 380px; left: 720px;"
                     data-type="text"
                     data-effect="bottom(40)"
                     data-duration="2000"
@@ -68,7 +73,7 @@
                 </h3>
                 <!-- slide heading layer -->
                 <h2 class="ms-layer pi-caption01" 
-                    style="top: 360px; left: 630px; font-size: 50px;"
+                    style="top: 460px; left: 630px; font-size: 50px;"
                     data-type="text"
                     data-effect="bottom(40)"
                     data-duration="2000"
@@ -80,7 +85,7 @@
 
                 <!-- slide divider layer -->
                 <div class="ms-layer divider"
-                     style="top: 455px; left: 737px;"
+                     style="top: 555px; left: 737px;"
                      data-type="text"
                      data-effect="top(40)"
                      data-duration="2000"
@@ -93,85 +98,6 @@
                     <span class="hr-double right"></span>
                 </div>
 
-               <!--  <img class="ms-layer" src="./masterslider/style/blank.gif" data-src="images/slider/slide01-01.png" alt=""
-                     style="left: 0; top: 100px;"
-                     data-type="image"
-                     data-effect="left(40)"
-                     data-duration="2500"
-                     data-ease="easeOutExpo"
-                     data-delay="0"
-                     /> -->
-                <img class="ms-layer" src="./masterslider/style/blank.gif" data-src="images/slider/slide01-02.png" alt=""
-                     style="left: 300px; top: 180px;"
-                     data-type="image"
-                     data-delay="20"
-                     data-parallax="5"
-                     />
-                <img class="ms-layer" src="./masterslider/style/blank.gif" data-src="images/slider/slide01-12.png" alt=""
-                     style="left: 350px; top: 380px;"
-                     data-type="image"
-                     data-delay="20"
-                     data-parallax="5"
-                     />
-                           
-                <img class="ms-layer" src="./masterslider/style/blank.gif" data-src="images/slider/slide01-03.png" alt=""
-                     style="left: 275px; top: 535px;"
-                     data-type="image"
-                     data-delay="100"
-                     data-parallax="5"
-                     />
-                <img class="ms-layer" src="./masterslider/style/blank.gif" data-src="images/slider/slide01-04.png" alt=""
-                     style="left: 295px; top: 716px;"
-                     data-type="image"
-                     data-delay="50"
-                     data-parallax="2"
-                     />
-                <img class="ms-layer" src="./masterslider/style/blank.gif" data-src="images/slider/slide01-05.png" alt=""
-                     style="left: 280px; top: 861px;"
-                     data-type="image"
-                     data-delay="150"
-                     data-parallax="15"
-                     />
-
-                <img class="ms-layer" src="./masterslider/style/blank.gif" data-src="images/slider/slide01-06.png" alt=""
-                     style="left: 10px; top: 100px;"
-                     data-type="image"
-                     data-delay="20"
-                     data-parallax="5"
-                     />
-                <img class="ms-layer" src="./masterslider/style/blank.gif" data-src="images/slider/slide01-07.png" alt=""
-                     style="right: 100px; top: 174px;"
-                     data-type="image"
-                     data-delay="80"
-                     data-parallax="5"
-                     />
-
-                <img class="ms-layer" src="./masterslider/style/blank.gif" data-src="images/slider/slide01-08.png" alt=""
-                     style="right: 100px; top: 483px;"
-                     data-type="image"
-                     data-delay="10"
-                     data-parallax="1"
-                     />
-                <img class="ms-layer" src="./masterslider/style/blank.gif" data-src="images/slider/slide01-09.png" alt=""
-                     style="right: 288px; top: 263px;"
-                     data-type="image"
-                     data-delay="30"
-                     data-parallax="8"
-                     />
-                <img class="ms-layer" src="./masterslider/style/blank.gif" data-src="images/slider/slide01-10.png" alt=""
-                     style="right: 315px; top: 470px;"
-                     data-type="image"
-                     data-delay="150"
-                     data-parallax="15"
-                     />
-                <!-- <img class="ms-layer" src="./masterslider/style/blank.gif" data-src="images/slider/slide01-11.png" alt=""
-                     style="right: 0; bottom: 55px; left: 0; margin: 0 auto;"
-                     data-type="image"
-                     data-effect="bottom(40)"
-                     data-duration="2500"
-                     data-ease="easeOutExpo"
-                     data-delay="500"
-                     /> -->
             </div><!-- slide end -->
             
 
@@ -910,6 +836,8 @@
   <script src="js/imagesloaded.pkgd.min.js"></script>
   <script src="js/isotope.pkgd.min.js"></script>
   <script src="js/jquery.fancybox.pack.js"></script>
+  <script src="js/bideo.js" defer></script><!-- Video Background JS Plugin -->
+  <script src="js/video-background.js" defer></script><!-- Video Background JS -->
   <script src="js/custom.js"></script>
   <script src="js/scripts.js"></script>
   <script>
